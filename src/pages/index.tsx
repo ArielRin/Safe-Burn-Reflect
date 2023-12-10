@@ -42,21 +42,17 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Defi Derby | #1 Raceday AMA on BSC</title>
-        <meta name="description" content="Explore the thrilling world of Defi Derby, the number 1 raceday AMA on BSC. Join the revolution in decentralized finance and experience a new era of racing and community engagement.  #DefiDerby #BSC #DeFi" />
+        <title>Safe Burn Reflect</title>
+        <meta name="description" content="transparent and open with the community with no bullshit and unruggable contracts and a multisig gnosis safe wallet that will require trusted doxxed members of the crypto space to run" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@lastm3042" />
-        <meta name="twitter:title" content="Defi Derby - #1 Raceday AMA on BSC" />
-        <meta name="twitter:description" content="Explore the thrilling world of Defi Derby, the number 1 raceday AMA on BSC. Join the revolution in decentralized finance and experience a new era of racing and community engagement. #DefiDerby #BSC #DeFi" />
+        <meta name="twitter:site" content="@Safeburnreflect" />
+        <meta name="twitter:title" content="Safe Burn Reflect" />
+        <meta name="twitter:description" content="transparent and open with the community with no bullshit and unruggable contracts and a multisig gnosis safe wallet that will require trusted doxxed members of the crypto space to run" />
         <meta name="twitter:image" content="https://monumental-donut-cd05a8.netlify.app/twitter.png" /> {/* Add the path to your image or logo */}
-        <meta name="twitter:image:alt" content="Defi Derby Logo" />
-
-
-
-
+        <meta name="twitter:image:alt" content="Safe Burn Reflect Logo" />
       </Head>
 
       <Header />
@@ -65,7 +61,7 @@ export default function Home() {
         <div className={mainPagesStyles.centeredButton}>
           <Link href="/About">
             <div>
-              <button className={mainPagesStyles.enterAppButton}>Enter App</button>
+              <button className={mainPagesStyles.enterAppButton}>Safe Burn Reflect</button>
             </div>
           </Link>
         </div>

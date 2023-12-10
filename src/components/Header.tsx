@@ -21,14 +21,14 @@ const Header: React.FC<HeaderProps> = () => {
       <Link href="/" passHref> {/* Wrap the logo container with Link */}
               <div className={styles.logoContainer} onClick={closeAll}>
                 <Image
-                  src="/horse.png"
+                  src="/logoround.png"
                   alt="CheyneDapp Logo"
                   height={48}
                   width={48}
                 />
                 <Image
-                  src="/headerlogo.png"
-                  alt="CheyneDapp Logo"
+                  src="/headerlogo.gif"
+                  alt="Safe Burn Reflect Text Logo"
                   height={40}
                   width={290}
                 />
@@ -44,25 +44,30 @@ const Header: React.FC<HeaderProps> = () => {
         </div>
       </div>
 
-      <div className={styles.buttons}>
-        <div onClick={closeAll}>
-          <Link href="/About" passHref>
-            <div className={styles.navLink}>About</div>
-          </Link>
-        </div>
-        <div onClick={closeAll}>
-          <Link href="/NFT" passHref>
-            <div className={styles.navLink}>NFTs</div>
-          </Link>
-        </div>
-        <div onClick={closeAll}>
-          <Link href="/Tokens" passHref>
-            <div className={styles.navLink}>Tokens</div>
-          </Link>
-        </div>
-      </div>
+
     </header>
   );
 };
 
 export default Header;
+
+
+
+
+// <div className={styles.buttons}>
+//   <div onClick={closeAll}>
+//     <Link href="/About" passHref>
+//       <div className={styles.navLink}>About</div>
+//     </Link>
+//   </div>
+//   <div onClick={closeAll}>
+//     <Link href="/NFT" passHref>
+//       <div className={styles.navLink}>NFTs</div>
+//     </Link>
+//   </div>
+//   <div onClick={closeAll}>
+//     <Link href="/Tokens" passHref>
+//       <div className={styles.navLink}>Tokens</div>
+//     </Link>
+//   </div>
+// </div>
