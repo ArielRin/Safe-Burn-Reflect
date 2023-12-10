@@ -21,7 +21,7 @@ const Header: React.FC<HeaderProps> = () => {
       <Link href="/" passHref> {/* Wrap the logo container with Link */}
               <div className={styles.logoContainer} onClick={closeAll}>
                 <Image
-                  src="/logoround.png"
+                  src="/twitter.png"
                   alt="CheyneDapp Logo"
                   height={48}
                   width={48}
